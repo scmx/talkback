@@ -1,0 +1,90 @@
+{
+  meta: {
+    createdAt: '2021-06-17T15:47:32.986Z',
+    host: 'out_of_context_host',
+    reqHumanReadable: true,
+  },
+  req: {
+    url: 'out_of_context_url',
+    method: 'DELETE',
+    headers: {
+      accept: 'application/json',
+      'content-type': 'application/json',
+    },
+    body: {
+      out_of_context_data: 'out_of_context_value'
+    },
+  },
+  res: {
+    status: 200,
+    headers: {
+      date: [
+        'Thu, 17 Jun 2021 15:47:34 GMT',
+      ],
+      'content-type': [
+        'application/json;charset=UTF-8',
+      ],
+      'content-length': [
+        '40',
+      ],
+      connection: [
+        'keep-alive',
+      ],
+      'access-control-allow-headers': [
+        'origin, x-requested-with, accept',
+      ],
+      'access-control-allow-methods': [
+        'GET, PUT, POST, DELETE,PATCH',
+      ],
+      'access-control-allow-origin': [
+        '*',
+      ],
+      'access-control-max-age': [
+        '3628800',
+      ],
+      'cache-control': [
+        'no-store',
+      ],
+      'content-encoding': [
+        'gzip',
+      ],
+      expires: [
+        'Thu, 17 Jun 2021 16:47:34 GMT',
+      ],
+      pragma: [
+        'no-cache',
+      ],
+      'strict-transport-security': [
+        'max-age=out_of_context_value ; includeSubDomains',
+      ],
+      vary: [
+        'Accept-Encoding',
+      ],
+      'x-content-type-options': [
+        'nosniff',
+      ],
+      'x-e-dc': [
+        'azeus',
+      ],
+      'x-frame-options': [
+        'DENY',
+      ],
+      'x-newrelic-app-data': [
+        'out_of_context_data',
+      ],
+      'x-oidc-token-type': [
+        'CLIENT_CREDENTIALS',
+      ],
+      'x-oidc-user-type': [
+        'ANONYMOUS',
+      ],
+      'x-vcap-request-id': [
+        'out_of_context_id',
+      ],
+      'x-xss-protection': [
+        '1; mode=block',
+      ],
+    },
+    body: 'base64 going here',
+  },
+}
